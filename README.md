@@ -48,12 +48,3 @@ Campos obligatorios: Código y nombre requeridos
 Validación numérica: Precio y cantidad deben ser números positivos
 Códigos únicos: Previene duplicación de productos
 Formato de datos: Validación de tipos de datos
-
-🏗️ Arquitectura del Software
-Patrón MVC (Modelo-Vista-Controlador)
-📁 Estructura de Clases
-├── 📄 Producto.java              # Modelo de datos
-├── 📄 InventarioController.java  # Lógica de negocio
-├── 📄 ValidadorDatos.java        # Validaciones
-├── 📄 InterfazInventario.java    # Interfaz gráfica
-└── 📄 InventarioTiendaApp.java   # Clase principal
